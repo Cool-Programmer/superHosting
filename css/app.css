@@ -1,0 +1,199 @@
+.top-nav{
+	background-color: #333;
+	color: #ccc;
+	height: 40px;
+}
+
+.top-nav a{
+	color: #ccc;
+	padding: 2px;
+	font-size: 15px;
+	border-left: 1px dotted #f2f2f2;
+}
+
+#spp{
+	border-left: none;
+}
+
+#cnt{
+	border-right: 1px dotted #f2f2f2;
+}
+
+li{
+	list-style: none;
+}
+
+#num{
+	padding-left: 15px;
+}
+
+.support-menu{
+	margin-left: 40px;
+}
+
+.logo, .menuItems, #showcase, .adv, footer, .ext, .pck, .cont{
+	margin-top: 20px;
+}
+
+#mainMenu{
+	margin-left: 150px;
+}
+
+.logo img{
+	margin-top: 15px;
+	margin-left: 5px;
+}
+
+.menuItems li{
+	display: inline-block;
+	width: 110px;
+	height: 110px;
+	margin-right: 5px;
+	padding-top: 16px;
+	text-align: center;
+}
+
+.menuItems li a{
+	color: #333;
+	text-decoration: none;
+}
+
+li.active{
+	background-color: #1169bb !important;
+	color:#fff !important;
+}
+
+.menuItems li:hover, .menuItems li a:hover{
+	background-color: #1169bb;
+	color: #fff;
+}
+
+
+#showcase{
+	height: 550px;
+	background: #f4f4f4 url('../img/showcase.jpg');
+	color: #fff;
+}
+
+#smart{
+	color: #42a4db;
+}
+
+#showcase img{
+	width: 50%;
+	padding-top: 20px;
+	margin-left: 90px;
+}
+
+.active i, .active p{
+	color: #f4f4f4;
+}
+
+.offerText{
+	padding: 45px 0 0 45px;
+}
+
+.choices{
+	padding-left: 40px;
+	font-size: 18px;
+}
+
+#middleBar{
+	background-color: #1169bb !important;
+	margin-left: 0 !important;
+	padding: 15px 0 10px 30px;
+	max-width: 1000rem; 
+	color: #fff;
+}
+
+.marginTop{
+	margin-top: 38px;
+}
+
+.adv{
+	text-align: center;
+	padding: 10px;
+}
+
+.adv i{
+	color: #1169bb;
+	padding-bottom: 10px;
+}
+
+
+
+footer{
+	height: 300px;
+	background-color: #333 !important;
+	color: #fff;
+}
+
+footer ul{
+	list-style: disc !important;
+	list-style-type: disc !important;
+}
+
+footer h4{
+	padding: 30px 0 0 20px;
+}
+
+footer ul li{
+	display: block;
+	padding-left: 20px;
+	padding-bottom: 0;
+}
+
+footer ul li a{
+	color: #fff;
+}
+
+footer ul li a:hover{
+	color: #777;
+}
+
+.searchBox{
+	margin-top: 20px;
+}
+
+.marginTopPlus{
+	margin-top: 53px;
+}
+
+.ext li{
+	padding: 10px;
+}
+
+.pricing-table {
+	border: solid 1px #DDDDDD; 
+}
+
+.pricing-table li {
+    border-bottom: dotted 1px #DDDDDD;
+    font-size: 0.75rem;
+    padding: 0.875rem 1.125rem; 
+}
+
+.pricing-table li:last-child {
+    border-bottom: 0; 
+}
+
+.pricing-table .title {
+    background-color: #333333;
+    color: #EEEEEE;
+    font-size: 0.875rem;
+    border-bottom: 0; 
+}
+.pricing-table .price {
+    background-color: #F6F6F6;
+    color: #333333;
+    font-size: 1.75rem;
+    border-bottom: 0; 
+}
+.pricing-table .description {
+    color: #777777;
+    font-size: 0.625rem; 
+}
+
+.pricing-table .button {
+    margin: 0; 
+}
